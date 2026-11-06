@@ -40,6 +40,7 @@ article {
   box-sizing: border-box;
   min-width: 0;
   min-height: 0;
+  
 }
 
 .article1 {
@@ -66,6 +67,7 @@ article {
   grid-template-rows: repeat(2, minmax(0, 1fr));
   gap: 0.5rem;
   padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .article4 section {
@@ -77,4 +79,42 @@ article {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 13px;
+  overflow:auto;
+
+}
+
+.sect1{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.title-note{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.7rem;
+}
+
+#note-title-w4{
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 0.5rem;
+  height: 1rem;
+}
+
+#note-w4{
+  margin-bottom: 0.5rem;
+  width: 90%;
+  height: auto;
+}
+
+#save-note-w4{
+  background-color: black;
+  color: white;
+  border: 0cap;
+  padding: 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
 }

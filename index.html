@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css">
+
+    <script src="scripts/widget4.js"></script>
 </head>
 <body>
 
@@ -30,19 +32,25 @@
 
         <article class="article4">
             <section class="sect1">
-                <p class="title-note">Hola</p>
+                <p class="title-note">Agrega una nota:</p>
+
+                <form action="">
+                    <input id="note-title-w4" placeholder="Titulo..." type="text">
+                    <textarea name="" id="note-w4" cols="3" rows="2">
+                        Escribe la nota...
+                    </textarea>
+                    <button id="save-note-w4">Guardar</button>
+                </form>
 
             </section>
             <section class="sect2">
-                <p class="title-note"></p>
+                <p class="title-note" id="note-ingresada"></p>
                 
             </section>
-            <section class="sect3">
-                <p class="title-note"></p>
+            <section class="sect3" id="own_note_1">
 
             </section>
-            <section class="sect4">
-                <p class="title-note"></p>
+            <section class="sect4" id="own_note_2">
 
             </section>
         </article>
