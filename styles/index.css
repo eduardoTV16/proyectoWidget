@@ -1,0 +1,70 @@
+
+
+#title-index {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3em; 
+  text-align: center;                          /* Centra el texto de forma precisa */
+  width: 100%;                                 /* Permite que el texto use el espacio necesario */
+  margin: 1.5rem auto;                         /* Margen vertical con centrado del bloque */
+}
+
+
+
+
+.line-horizontal {
+  box-sizing: border-box;
+  width: 100%;                  /* Ocupa el 100% del contenedor sin provocar scroll */
+  border: none;                 /* Limpia bordes nativos si usas la etiqueta <hr> */
+  border-top: 0.14em solid rgba(0, 0, 0, 0.077); /* Grosor, estilo y color */
+  margin: 1.5em 0;              /* Separación vertical */
+}
+
+#box-principal{
+
+    box-sizing: border-box;
+    border:solid red 0.2em ;
+    width: 95vw;
+    min-height: 80vh;
+    margin-left: 2.5vw;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+}
+@media (min-width: 768px) {
+  #box-principal {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas y 2 filas automáticas */
+  }
+}
+article{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+.article1{
+    background-color: rgb(218, 200, 64);
+    
+}
+
+
+.article2{
+    background-color: rgb(75, 181, 80);
+    
+}
+
+
+.article3{
+    background-color: rgb(115, 97, 215);
+    
+}
+
+
+.article4{
+    background-color: rgb(210, 101, 101);
+    
+}
