@@ -1,0 +1,23 @@
+body{
+
+    background-color:#0E2A2F;
+    margin: 0;
+}
+
+header{
+
+
+}
+
+h1{
+
+}
+
+.task-container{
+    background-color: #123B40;
+    border-radius: 30px;
+    border-color: 2px solid #226069;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 24px;
+}
